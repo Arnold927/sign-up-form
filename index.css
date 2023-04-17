@@ -1,0 +1,110 @@
+body{
+  padding: 30px;
+  font-size: 16px;
+  font-family: Poppins;
+}
+#body{
+  width: 375px;
+  height: auto;
+  border: none;
+  padding: 20px;
+  background-color: hsl(0, 100%, 74%);
+}
+#heading h2{
+  text-align: center;
+  width: 60%;
+  font-weight: 700;
+  color: white;
+  padding-left: 40px;
+}
+#heading p{
+  text-align: center;
+  width: 85%;
+  line-height: 22px;
+  font-weight: 400;
+  color: white;
+}
+#try{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+}
+.tryIt{
+  text-align: center;
+  width: 50%;
+  background-color: hsl(248, 32%, 49%);
+}
+#spanTry{
+  font-weight: 600;
+}
+#inputs{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 10px;
+}
+#firstName, #lastName, #email, #password{
+  margin-bottom: 12px;
+  padding: 12px 10px 12px 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 16px;
+}
+#claim{
+  padding: 18px 8px 18px 8px;
+  border: none;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+  background-color:hsl(154, 59%, 51%) ;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+#claim:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+#clicking{
+  padding-left: 12px;
+  text-align: center;
+  width: auto;
+}
+#inputs{
+  background-color: white;
+  border-radius: 10px;
+}
+input{
+  border: 0;
+  outline: 0;
+  border-width: none;
+}
+input:focus{
+  outline: none !important;
+}
+#inputs p{
+  color:hsl(246, 25%, 77%);
+}
+#terms{
+  color: hsl(0, 100%, 74%);
+  font-weight: 500;
+}
+#nameError, #nameError1 {
+  display: none;
+  font-size: 0.8em;
+}
+#nameError.visible, #nameError1.visible{
+  display: block;
+  color: hsl(0, 100%, 74%);
+  text-align: right;
+}
+#firstName.invalid, #lastName.invalid{
+  border-color: hsl(0, 100%, 74%);
+}
